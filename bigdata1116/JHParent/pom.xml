@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.atguigu.maven</groupId>
+    <artifactId>JHParent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules><!--聚合，将所需要打包的工程都放到这来，这个父工程需要以pom打包形式打包-->
+        <module>../Hello</module>
+        <module>../HelloFriend</module>
+        <module>../MakeFriend</module>
+    </modules>
+
+</project>
